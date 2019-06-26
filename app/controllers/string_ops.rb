@@ -1,5 +1,6 @@
 class StringOps
   def to_upper(string)
+    puts "CI-test: to to_upper called"
     string.upcase
   end
 

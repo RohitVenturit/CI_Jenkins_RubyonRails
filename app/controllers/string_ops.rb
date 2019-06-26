@@ -4,6 +4,7 @@ class StringOps
   end
 
   def to_lower(string)
+    puts "CI-test: to lower called"
     string.downcase
   end
 
